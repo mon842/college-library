@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    padding: 20px;
+    border: 1px solid black;
+    align-items: center;
+}
+.table-1{
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.table-submitted{
+    background-color: rgb(211, 238, 229);
+    /* min-width:300px; */
+}
+.table-Nosubmitted{
+    background-color: rgb(250, 219, 219);
+}
+
+/* @media (max-width:400px) {
+    .table-1{
+        max-width: 200px;
+    }
+} */
+.img{
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+img{
+    height: 50vh;
+    /* width: 50vw; */
+    width: 100%;
+    
+}
